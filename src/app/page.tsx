@@ -3,7 +3,7 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 
 import { Button } from "~/components/ui/button"
-import { ProjectCard } from "~/components/project-card"
+// import { ProjectCard } from "~/components/project-card"
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <section className="py-24 md:py-32">
         <div className="grid gap-10 md:grid-cols-2 md:gap-16">
           <div className="flex flex-col justify-center space-y-4 mx-auto">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+            <h1 className="text-4xl font-semibold tracking-tighter sm:text-5xl md:text-6xl">
               {`Hi,`}
               <br />
               {`I'm Tamara`}
@@ -35,7 +35,7 @@ export default function Home() {
           <div className="flex items-center justify-center">
             <div className="relative aspect-square w-full max-w-sm overflow-hidden rounded-2xl bg-muted">
               <Image
-                src="/tamara-profile.jpg"
+                src="/tamara-portrait-1.png"
                 alt="Tamara Schier"
                 className="object-cover h-full"
                 width={400}

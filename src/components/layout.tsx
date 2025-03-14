@@ -6,7 +6,7 @@ import Image from "next/image"
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-screen flex-col">
-      <div className="mx-auto w-full max-w-7xl">
+      <div className="container mx-auto w-full">
         <header className="sticky top-0 z-10 border-b bg-background/80 backdrop-blur-sm">
           <div className="flex h-16 items-center justify-between px-4">
             <div>
@@ -22,14 +22,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </div>
 
             {/* Center: Navigation Links */}
-            {/* <nav className="flex items-center justify-center gap-6">
-              <Link href="/my-work" className="text-sm font-light hover:text-primary">
+            <nav className="flex items-center justify-center gap-6">
+              {/* <Link href="/my-work" className="text-sm font-light hover:text-primary">
                 My Work
-              </Link>
+              </Link> */}
               <Link href="/about-me" className="text-sm font-light hover:text-primary">
                 About Me
               </Link>
-            </nav> */}
+            </nav>
 
             {/* Right: Social Links */}
             <div className="flex items-center justify-end gap-4">
