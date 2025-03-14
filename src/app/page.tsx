@@ -67,20 +67,20 @@ const projects = [
     date: "Jan 2025 - Present",
     role: "UX/UI Design",
     image: "/your-share-banner.png",
-    link: "/projects/kassette",
+    link: "/kassette",
   },
   {
     title: "YourShare",
     date: "Oct 2022 - Mar 2023",
     role: "UX/UI Design",
     image: "/your-share-banner.png",
-    link: "/projects/yourshare",
+    link: "/yourshare",
   },
   {
     title: "Quick Vocab",
     date: "Sep 2022 - May 2023",
     role: "UX/UI Design",
     image: "/your-share-banner.png",
-    link: "/projects/quick-vocab",
+    link: "/quick-vocab",
   },
 ]
