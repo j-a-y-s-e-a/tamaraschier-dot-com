@@ -7,7 +7,7 @@ import { Layout } from "~/components/layout";
 export const metadata: Metadata = {
   title: "Tamara Schier | Product Designer",
   description: "Tamara Schier, Product Designer",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/favicon.png" }],
 };
 
 export default function RootLayout({

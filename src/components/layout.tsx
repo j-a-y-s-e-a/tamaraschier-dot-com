@@ -12,7 +12,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <Link href="/" className="text-xl font-semibold">
                 <Image
-                  src="/tamara-profile.jpg"
+                  src="/favicon.png"
                   alt="Tamara Schier"
                   className="object-cover"
                   width={46}
