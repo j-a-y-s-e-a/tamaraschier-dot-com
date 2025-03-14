@@ -35,11 +35,13 @@ export default function Home() {
           <div className="flex items-center justify-center">
             <div className="relative aspect-square w-full max-w-sm overflow-hidden rounded-2xl bg-muted">
               <Image
-                src="/tamara-portrait-1.png"
+                src="/tamara-profile.jpg"
                 alt="Tamara Schier"
                 className="object-cover h-full"
                 width={400}
                 height={400}
+                unoptimized={true}
+                priority={true}
               />
             </div>
           </div>

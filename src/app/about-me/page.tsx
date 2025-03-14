@@ -14,6 +14,8 @@ export default function AboutMe() {
                 className="object-cover h-full"
                 width={400}
                 height={400}
+                unoptimized={true}
+                priority={true}
               />
             </div>
           </div>
