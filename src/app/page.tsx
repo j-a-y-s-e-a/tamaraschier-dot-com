@@ -3,7 +3,6 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 
 import { Button } from "~/components/ui/button"
-// import { ProjectCard } from "~/components/project-card"
 
 export default function Home() {
   return (
@@ -47,42 +46,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Projects Section */}
-      {/* <section id="work" className="py-20">
-        <div>
-          <h2 className="mb-12 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Projects</h2>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {projects.map((project, index) => (
-              <ProjectCard key={index} {...project} />
-            ))}
-          </div>
-        </div>
-      </section> */}
     </main>
   )
 }
-
-const projects = [
-  {
-    title: "Kassette",
-    date: "Jan 2025 - Present",
-    role: "UX/UI Design",
-    image: "/your-share-banner.png",
-    link: "/projects/kassette",
-  },
-  {
-    title: "YourShare",
-    date: "Oct 2022 - Mar 2023",
-    role: "UX/UI Design",
-    image: "/your-share-banner.png",
-    link: "/projects/yourshare",
-  },
-  {
-    title: "Quick Vocab",
-    date: "Sep 2022 - May 2023",
-    role: "UX/UI Design",
-    image: "/your-share-banner.png",
-    link: "/projects/quick-vocab",
-  },
-]
