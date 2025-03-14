@@ -30,6 +30,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -62,7 +63,28 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.text-heading {
+  @apply text-center text-3xl md:text-4xl font-normal text-muted-foreground tracking-tight max-w-[75%] mx-auto mb-0;
+}
+
+.text-subheading {
+  @apply text-center text-5xl md:text-7xl font-medium tracking-tight max-w-[75%] mx-auto mb-6;
+}
+
+.text-description {
+  @apply text-center text-lg font-normal tracking-tight max-w-[50%] mx-auto mb-6;
+}
+
+.banner-image {
+  @apply mx-auto overflow-hidden max-w-[75%] max-h-[600px] rounded-2xl mb-12;
+}
+
+.smaller-image {
+  @apply mx-auto overflow-hidden max-w-[75%];
 }
