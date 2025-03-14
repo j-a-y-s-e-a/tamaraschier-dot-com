@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="work" className="py-20">
+      {/* <section id="work" className="py-20">
         <div>
           <h2 className="mb-12 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Projects</h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -56,7 +56,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   )
 }

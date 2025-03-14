@@ -22,24 +22,24 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </div>
 
             {/* Center: Navigation Links */}
-            <nav className="flex items-center justify-center gap-6">
+            {/* <nav className="flex items-center justify-center gap-6">
               <Link href="/my-work" className="text-sm font-light hover:text-primary">
                 My Work
               </Link>
               <Link href="/about-me" className="text-sm font-light hover:text-primary">
                 About Me
               </Link>
-            </nav>
+            </nav> */}
 
             {/* Right: Social Links */}
             <div className="flex items-center justify-end gap-4">
-              <Link href="/instagram" className="text-sm text-muted-foreground hover:text-foreground" target="_blank">
+              <Link href="https://www.instagram.com/tamaraschierux/" className="text-sm text-muted-foreground hover:text-foreground" target="_blank">
                 <Instagram size={14} />
               </Link>
-              <Link href="/dribbble" className="text-sm text-muted-foreground hover:text-foreground" target="_blank">
+              <Link href="https://dribbble.com/_tamaraschier" className="text-sm text-muted-foreground hover:text-foreground" target="_blank">
                 <Dribbble size={14} />
               </Link>
-              <Link href="/linked-in" className="text-sm text-muted-foreground hover:text-foreground" target="_blank">
+              <Link href="https://www.linkedin.com/in/tamara-schier/" className="text-sm text-muted-foreground hover:text-foreground" target="_blank">
                 <Linkedin size={14} />
               </Link>
             </div>
@@ -49,17 +49,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <footer className="border-t py-6">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row px-4">
             <p className="text-sm text-muted-foreground">2025 Tamara Schier</p>
-            <div className="flex gap-4">
-              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                Instagram
-              </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                Dribbble
-              </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                LinkedIn
-              </Link>
-            </div>
           </div>
         </footer>
       </div>
