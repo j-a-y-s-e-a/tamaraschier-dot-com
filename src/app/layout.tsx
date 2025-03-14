@@ -2,7 +2,7 @@ import "~/styles/globals.css";
 
 import { type Metadata } from "next";
 import { PostHogProvider } from "~/app/analytics/providers";
-import { Layout } from "~/components/layout";
+import { PageLayout } from "~/components/layout/page-layout";
 
 export const metadata: Metadata = {
   title: "Tamara Schier | Product Designer",
@@ -17,9 +17,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <PostHogProvider>
-          <Layout>
+          <PageLayout>
             {children}
-          </Layout>
+          </PageLayout>
         </PostHogProvider>
       </body>
     </html>

@@ -3,7 +3,7 @@ import { Dribbble, Instagram, Linkedin } from "lucide-react"
 
 import Image from "next/image"
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export function PageLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-screen flex-col">
       <div className="container mx-auto w-full">
