@@ -23,9 +23,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
             {/* Center: Navigation Links */}
             <nav className="flex items-center justify-center gap-6">
-              {/* <Link href="/my-work" className="text-sm font-light hover:text-primary">
+              <Link href="/my-work" className="text-sm font-light hover:text-primary">
                 My Work
-              </Link> */}
+              </Link>
               <Link href="/about-me" className="text-sm font-light hover:text-primary">
                 About Me
               </Link>

@@ -15,13 +15,13 @@ export function ProjectCard({ title, date, role, image, link }: ProjectCardProps
       href={link}
       className="group block overflow-hidden rounded-lg border bg-background transition-all hover:shadow-md"
     >
-      <div className="aspect-video overflow-hidden">
+      <div className="aspect-square overflow-hidden">
         <Image
-          src={image ?? "/your-share-banner.png"}
+          src={image!}
           alt={title}
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-          width={800}
-          height={600}
+          width={400}
+          height={400}
         />
       </div>
       <div className="p-4">
