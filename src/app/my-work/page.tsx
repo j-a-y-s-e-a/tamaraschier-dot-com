@@ -1,18 +1,19 @@
 import { ProjectCard } from "~/components/project-card"
+import { Section } from "~/components/layout/section"
 
 export default function MyWork() {
   return (
     <main className="flex-1 px-4">
-      <section className="py-24 md:py-32">
+      <Section>
         <div className="flex flex-col justify-center md:max-w-[50%]">
           <h1 className="text-4xl font-semibold tracking-tighter sm:text-5xl md:text-6xl">
             {`Here's what I've been up to...`}
           </h1>
         </div>
-      </section>
+      </Section>
 
       {/* Projects Section */}
-      <section id="product-design" className="py-20">
+      <Section id="product-design">
         <div>
           <h2 className="mb-12 text-3xl tracking-tighter sm:text-4xl md:text-5xl">Product Design</h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -21,8 +22,8 @@ export default function MyWork() {
             ))}
           </div>
         </div>
-      </section>
-      <section id="bits-and-bobs" className="py-20">
+      </Section>
+      <Section id="bits-and-bobs">
         <div>
           <h2 className="mb-12 text-3xl tracking-tighter sm:text-4xl md:text-5xl">Bits & Bobs</h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -31,7 +32,7 @@ export default function MyWork() {
             ))}
           </div>
         </div>
-      </section>
+      </Section>
     </main>
   )
 }

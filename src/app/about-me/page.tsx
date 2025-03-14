@@ -1,10 +1,10 @@
 import Image from "next/image"
+import { Section } from "~/components/layout/section"
 
 export default function AboutMe() {
   return (
     <main className="flex-1 px-8">
-      {/* Hero Section */}
-      <section className="py-24 md:py-32">
+      <Section>
         <div className="grid gap-10 md:grid-cols-2 md:gap-16">
           <div className="flex items-center justify-center">
             <div className="relative aspect-square w-full max-w-sm overflow-hidden rounded-2xl bg-muted">
@@ -34,7 +34,7 @@ export default function AboutMe() {
             </p>
           </div>
         </div>
-      </section>
+      </Section>
     </main>
   )
 }

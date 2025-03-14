@@ -3,12 +3,12 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 
 import { Button } from "~/components/ui/button"
+import { Section } from "~/components/layout/section"
 
 export default function Home() {
   return (
     <main className="flex-1 px-4">
-      {/* Hero Section */}
-      <section className="py-24 md:py-32">
+      <Section>
         <div className="grid gap-10 md:grid-cols-2 md:gap-16">
           <div className="flex flex-col justify-center space-y-4 mx-auto">
             <h1 className="text-4xl font-semibold tracking-tighter sm:text-5xl md:text-6xl">
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </Section>
     </main>
   )
 }
